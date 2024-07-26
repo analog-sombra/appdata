@@ -10,6 +10,9 @@ echo "New changes copied to server !"
 echo "Installing Dependencies..."
 pnpm install --yes
 
+echo "Updating database..."
+pnpm exec prisma db push
+
 echo "Creating Production Build..."
 pnpm build
 
