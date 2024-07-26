@@ -18,7 +18,6 @@ export default function Home() {
 
   return (
     <main className="bg-[#e1e9eb] p-12">
-      <h1 className="text-center text-lg text-[#2e8ee2]">This is just a heading</h1>
       <div className="flex gap-4 items-center justify-evenly">
         <div className="bg-[#2e8ee2] px-2 py-1 rounded shadow text-white">
           Server DateTime:
