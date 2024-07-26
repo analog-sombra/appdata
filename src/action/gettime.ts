@@ -9,9 +9,9 @@ const GetTime = async (): Promise<TimeResponse> => {
   const pool = mysql
     .createPool({
       host: "127.0.0.1",
-      user: "root",
-      password: "",
-      database: "xewjuqrf_chohan2",
+      user: process.env.USERNAME,
+      password: process.env.PASSWORD,
+      database: process.env.DATABASE,
     })
     .promise();
 
